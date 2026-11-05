@@ -23,6 +23,14 @@ class OrderSummaryScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            const Text(
+              'Your Order Details',
+              style: TextStyle(
+                fontSize: 22,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            const SizedBox(height: 20),
             Text('Item: $itemName'),
             const SizedBox(height: 10),
             const Text('Quantity: 2'),
